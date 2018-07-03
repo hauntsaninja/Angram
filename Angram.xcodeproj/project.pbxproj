@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65A1C9220EB42EC00C14C6B /* SL1 in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C8D20EB42EC00C14C6B /* SL1 */; };
+		A65A1C9320EB42EC00C14C6B /* SL2 in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C8E20EB42EC00C14C6B /* SL2 */; };
+		A65A1C9420EB42EC00C14C6B /* SL3 in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C8F20EB42EC00C14C6B /* SL3 */; };
+		A65A1C9520EB42EC00C14C6B /* SL4 in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C9020EB42EC00C14C6B /* SL4 */; };
+		A65A1C9620EB42EC00C14C6B /* SL5 in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C9120EB42EC00C14C6B /* SL5 */; };
+		A661A7581C343005008110CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661A7571C343005008110CD /* AppDelegate.swift */; };
+		A661A75A1C343005008110CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A661A7591C343005008110CD /* Assets.xcassets */; };
+		A661A75D1C343005008110CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A661A75B1C343005008110CD /* MainMenu.xib */; };
+		A661A7651C343015008110CD /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661A7641C343015008110CD /* Controller.swift */; };
+		A661A76F1C343A71008110CD /* GramTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = A661A76E1C343A71008110CD /* GramTools.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A65A1C8C20EB42DF00C14C6B /* Angram-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Angram-Bridging-Header.h"; sourceTree = "<group>"; };
+		A65A1C8D20EB42EC00C14C6B /* SL1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SL1; sourceTree = "<group>"; };
+		A65A1C8E20EB42EC00C14C6B /* SL2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SL2; sourceTree = "<group>"; };
+		A65A1C8F20EB42EC00C14C6B /* SL3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SL3; sourceTree = "<group>"; };
+		A65A1C9020EB42EC00C14C6B /* SL4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SL4; sourceTree = "<group>"; };
+		A65A1C9120EB42EC00C14C6B /* SL5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SL5; sourceTree = "<group>"; };
+		A661A7541C343005008110CD /* Angram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Angram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A661A7571C343005008110CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A661A7591C343005008110CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A661A75C1C343005008110CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A661A75E1C343005008110CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A661A7641C343015008110CD /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		A661A76E1C343A71008110CD /* GramTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GramTools.mm; sourceTree = "<group>"; };
+		A661A7701C343A82008110CD /* GramTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GramTools.h; sourceTree = "<group>"; };
+		A661A7721C344120008110CD /* cword.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cword.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A661A7511C343005008110CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A661A74B1C343004008110CD = {
+			isa = PBXGroup;
+			children = (
+				A661A7561C343005008110CD /* Angram */,
+				A661A7551C343005008110CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A661A7551C343005008110CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A661A7541C343005008110CD /* Angram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A661A7561C343005008110CD /* Angram */ = {
+			isa = PBXGroup;
+			children = (
+				A65A1C8D20EB42EC00C14C6B /* SL1 */,
+				A65A1C8E20EB42EC00C14C6B /* SL2 */,
+				A65A1C8F20EB42EC00C14C6B /* SL3 */,
+				A65A1C9020EB42EC00C14C6B /* SL4 */,
+				A65A1C9120EB42EC00C14C6B /* SL5 */,
+				A65A1C8C20EB42DF00C14C6B /* Angram-Bridging-Header.h */,
+				A661A7721C344120008110CD /* cword.hpp */,
+				A661A7701C343A82008110CD /* GramTools.h */,
+				A661A76E1C343A71008110CD /* GramTools.mm */,
+				A661A7641C343015008110CD /* Controller.swift */,
+				A661A7571C343005008110CD /* AppDelegate.swift */,
+				A661A7591C343005008110CD /* Assets.xcassets */,
+				A661A75B1C343005008110CD /* MainMenu.xib */,
+				A661A75E1C343005008110CD /* Info.plist */,
+			);
+			path = Angram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A661A7531C343005008110CD /* Angram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A661A7611C343005008110CD /* Build configuration list for PBXNativeTarget "Angram" */;
+			buildPhases = (
+				A661A7501C343005008110CD /* Sources */,
+				A661A7511C343005008110CD /* Frameworks */,
+				A661A7521C343005008110CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Angram;
+			productName = Angram;
+			productReference = A661A7541C343005008110CD /* Angram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A661A74C1C343004008110CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "hauntsaninja";
+				TargetAttributes = {
+					A661A7531C343005008110CD = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = A661A74F1C343004008110CD /* Build configuration list for PBXProject "Angram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A661A74B1C343004008110CD;
+			productRefGroup = A661A7551C343005008110CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A661A7531C343005008110CD /* Angram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A661A7521C343005008110CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A1C9320EB42EC00C14C6B /* SL2 in Resources */,
+				A65A1C9420EB42EC00C14C6B /* SL3 in Resources */,
+				A65A1C9620EB42EC00C14C6B /* SL5 in Resources */,
+				A661A75A1C343005008110CD /* Assets.xcassets in Resources */,
+				A65A1C9220EB42EC00C14C6B /* SL1 in Resources */,
+				A661A75D1C343005008110CD /* MainMenu.xib in Resources */,
+				A65A1C9520EB42EC00C14C6B /* SL4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A661A7501C343005008110CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A661A76F1C343A71008110CD /* GramTools.mm in Sources */,
+				A661A7581C343005008110CD /* AppDelegate.swift in Sources */,
+				A661A7651C343015008110CD /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A661A75B1C343005008110CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A661A75C1C343005008110CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A661A75F1C343005008110CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A661A7601C343005008110CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A661A7621C343005008110CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Angram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hauntsaninja.Angram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Angram/Angram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A661A7631C343005008110CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = Angram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hauntsaninja.Angram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Angram/Angram-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A661A74F1C343004008110CD /* Build configuration list for PBXProject "Angram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A661A75F1C343005008110CD /* Debug */,
+				A661A7601C343005008110CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A661A7611C343005008110CD /* Build configuration list for PBXNativeTarget "Angram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A661A7621C343005008110CD /* Debug */,
+				A661A7631C343005008110CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A661A74C1C343004008110CD /* Project object */;
+}
